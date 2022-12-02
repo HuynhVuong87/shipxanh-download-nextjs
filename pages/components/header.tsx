@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { ScanOutlined } from "@ant-design/icons";
 import { Col, Divider, Row, Button } from "antd";
+import Image from "next/image";
 import {
   LinkOutlined,
   PlusCircleOutlined,
@@ -17,6 +18,10 @@ export default function Header() {
         <title>ShipXanh Phần mềm bán hàng đa kênh</title>
         {/* for SEO */}
         <meta name="robots" content="index, follow" />
+        <meta
+          name="description"
+          content="Tải ShipXanh Phần mềm bán hàng đa kênh"
+        />
         <meta name="keywords" content="ShipXanh, Phần mềm bán hàng đa kênh" />
         <meta name="author" content="ShipXanh" />
         <meta
@@ -39,7 +44,12 @@ export default function Header() {
       <header>
         <Row gutter={10} justify="center" align="middle">
           <Col>
-            <img width={30} src="/images/logo.png" alt="ShipXanh" />
+            <Image
+              height={30}
+              width={30}
+              src="/images/logo.png"
+              alt="ShipXanh"
+            />
           </Col>
           <Col>
             <h1>ShipXanh</h1>

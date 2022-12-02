@@ -58,7 +58,7 @@ export default function Main() {
               </Button>
             </a>
           </h3>
-          <img src="/images/demo-ext.png" width="100%" alt="" />
+          <img loading="lazy" src="/images/demo-ext.png" width="100%" alt="" />
           <Divider />
           <Timeline>
             {listFeturesExt.map((item, index) => (
@@ -82,7 +82,7 @@ export default function Main() {
               </Button>
             </a>
           </h3>
-          <img src="/images/demo-app.png" width="100%" alt="" />
+          <img loading="lazy" src="/images/demo-app.png" width="100%" alt="" />
           <Divider />
           <Timeline>
             {listFeturesApp.map((item, index) => (
